@@ -14,9 +14,15 @@
     },
     {
       "id": "3",
-      "name": "Mouse",
+      "name": "Headset",
       "price": 1000,
       "category": "Eletronicos"
+    },
+    {
+      "id": "",
+      "name": "Fone",
+      "price": 1000,
+      "category": "alguma coisa"
     }
   ]
 }

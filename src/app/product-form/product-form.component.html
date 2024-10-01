@@ -31,6 +31,7 @@
         placeholder="Digite a categoria"
       />
     </div>
-    <button type="button" class="btn btn-primary" (click)="update()">Salvar</button>
+    <button *ngIf="Editing" type="button" class="btn btn-primary" (click)="update()">Salvar</button>
+    <button *ngIf="Creating" type="button" class="btn btn-primary" (click)="save()">Criar</button>
   </form>
 </div>
